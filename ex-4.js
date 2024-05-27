@@ -13,3 +13,9 @@ let getJohnProfile = () => {
   });
 };
 // Start coding here
+async function getDataProfile() {
+  const getData = await getJohnProfile();
+  console.log(getData);
+}
+
+getDataProfile();
