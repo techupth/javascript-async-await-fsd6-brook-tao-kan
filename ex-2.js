@@ -11,5 +11,11 @@ let getJohnProfile = () => {
     );
   });
 };
+function showData(data) {
+  console.log(data);
+}
+function showError(data){
+  console.log(data)
+}
 
-// Start coding here
+getJohnProfile().then(showData).catch(showError)

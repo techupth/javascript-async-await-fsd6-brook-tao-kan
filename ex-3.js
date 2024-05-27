@@ -32,4 +32,11 @@ let getJohnOrders = () => {
   });
 };
 
-// Start coding here
+function firstResponse(data1){
+console.log(data1)
+}
+function secondResponse (data2){
+console.log(data2)
+}
+
+getJohnProfile().then(firstResponse).then(getJohnOrders).then(secondResponse)

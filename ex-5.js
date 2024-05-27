@@ -11,4 +11,22 @@ let getJohnProfile = () => {
     );
   });
 };
-// Start coding here
+
+
+
+
+async function showResult(){
+  try{
+    const showData = await getJohnProfile();
+    console.log(showData);
+  } catch (error){
+    console.log(error)
+  }
+}
+showResult();
+
+
+
+
+
+

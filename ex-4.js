@@ -12,4 +12,6 @@ let getJohnProfile = () => {
     );
   });
 };
-// Start coding here
+
+const showData = await getJohnProfile ();
+console.log(showData)

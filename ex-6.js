@@ -32,4 +32,8 @@ let getJohnOrders = () => {
   });
 };
 
-// Start coding here
+
+const firstResponse = await getJohnProfile();
+console.log(firstResponse);
+const secondResponse = await getJohnOrders();
+console.log(secondResponse);
